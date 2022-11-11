@@ -28,6 +28,13 @@ public class LoginController {
     @Autowired
     private MapperFactory mapperFactory;
 
+    /**
+     * @description 登录
+     * @author chenzhifeng@syncsoft.com
+     * @date 2022/11/11 15:56
+     * @param: [map]
+     * @return com.chat_room.entity.common.CommonResult
+     */
     @RequestMapping("/login")
     public CommonResult Login(@RequestBody Map map) {
         try {
